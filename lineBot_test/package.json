@@ -1,0 +1,26 @@
+{
+  "name": "bhitter_linebot",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chuangchen1019/Bhitter.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "chuangchen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chuangchen1019/Bhitter/issues"
+  },
+  "homepage": "https://github.com/chuangchen1019/Bhitter#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "linebot": "^1.5.1"
+  }
+}
