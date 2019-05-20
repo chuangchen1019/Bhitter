@@ -1,0 +1,17 @@
+{
+  "name": "bhitter_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "chuangchen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "get-json": "^1.0.1",
+    "git-json": "^1.0.17",
+    "linebot": "^1.5.1 "
+  }
+}
