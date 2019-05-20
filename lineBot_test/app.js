@@ -7,7 +7,6 @@ var bot = linebot({
   channelId: 1558428648,
   channelSecret: "3b0a38b06a0ae341ddae1fa952411401",
   channelAccessToken: "xbsnEadBcnDdBNg8bvvJLAzMYmqHYAuuEHRsk79qqG9f4dwtZq9Uw53XkKGtZU+ctFFlIz4ms45eZu6bgI8vusa9XMJSvm6RckHMcVGhGF2gG2a/iSK2lfRY2FY5EM2+36mOd5oSWGNC7Tw22yX6CgdB04t89/1O/w1cDnyilFU="
-
 });
 
 bot.on('message', function(event) {
