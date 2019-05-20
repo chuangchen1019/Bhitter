@@ -34,6 +34,7 @@ bot.on('message', function(event) {
 // },5000);
 
 
+
 const app = express();
 const linebotParser = bot.parser();
 app.post('/', linebotParser);
