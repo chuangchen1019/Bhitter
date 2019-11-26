@@ -1,0 +1,28 @@
+{
+  "name": "bhitter_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "chuangchen",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "*",
+    "bufferhelper": ">=0.2.1",
+    "child_process": ">=1.0.2",
+    "delayed": ">=1.0.1",
+    "express": "^4.16.4",
+    "get-json": "^1.0.1",
+    "git-json": "^1.0.17",
+    "heroku-client": "^3.0.7",
+    "iconv-lite": ">=0.4.13",
+    "linebot": "^1.5.1 ",
+    "md5": "^2.2.1",
+    "mysql": "^2.17.1",
+    "prompt": "^1.0.0",
+    "request": "^2.88.0",
+    "urlencode": ">=1.1.0"
+  }
+}
