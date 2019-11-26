@@ -20,7 +20,7 @@ var lastInfo = "";
 var bank_name_list = ["","",""];
 var card_name_list = ["","",""];
 
-function NLP(msg, callback){
+function NLP(msg, callback, userID){
 
   console.log("nlp connect seccess!");
 

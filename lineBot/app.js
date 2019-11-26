@@ -10,7 +10,6 @@ var mysql = require('mysql');
 var db = require('./DB_query.js');
 var nlp = require('./nlp.js');
 const Heroku = require('heroku-client');
-var lastUserID;
 const heroku = new Heroku({ token: "c0a7c816-7f14-470b-91c9-90857176ab61" });
 //process.env.HEROKU_API_TOKEN
 
@@ -27,7 +26,7 @@ bot.on('message',function(event){
 
   if (event.message.type = 'text') {
       var msg = event.message.text;
-    
+      var userID = event.source.userID;
       nlp.NLP(msg, afterRequest);
   
   }
