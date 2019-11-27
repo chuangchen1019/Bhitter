@@ -116,7 +116,7 @@ function cardDetail(bank_name,card_name,callback){
 	} 
 
 	try{
-	var queryStr = `SELECT bank.bank_name,card.card_name,bonus.bonus_title 
+	var queryStr = `SELECT bank.bank_name,card.card_name,card.card_link,bonus.bonus_title 
 					FROM bank,card,bonus 
 					WHERE bank.bank_id = card.bank_id AND card.card_id = bonus.card_id`
 	
@@ -130,6 +130,7 @@ function cardDetail(bank_name,card_name,callback){
 	connection.query(queryStr , function (error, results, fields) {
     
         if (error) throw error;
+        console.log(results);
       	callback(results,card_num);  
     });	
     }
@@ -151,22 +152,6 @@ function jsonToQuery (jsonObject) {
 	return str;
 	
 }
-// function selectRate(bank_name, rate_name, rate_status, rate_time, amount){
-
-// 	var queryStr = `SELECT bank.bank_name, rate.rate_name, rate.rate_status, rate.rate_value, rate.rate_time 
-// 					FROM bank, rate WHERE bank.bank_id = rate.bank_id
-// 					AND bank.bank_name = "${bank_name}"
-// 					AND rate.rate_name = "${rate_name}"
-// 					AND rate.rate_status = "${rate_status}"
-// 					AND rate.rate_time = "${rate_time}"`;
-
-// 	connection.query(queryStr , function (error, results, fields) {
-    
-//         if (error) throw error;
-//         console.log('The solution is: ', results);
-        
-//     });
-// }
 
 function terminateDB(){
 	connection.end();

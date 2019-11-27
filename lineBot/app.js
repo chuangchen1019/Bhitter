@@ -10,7 +10,6 @@ var mysql = require('mysql');
 var db = require('./DB_query.js');
 var nlp = require('./nlp.js');
 const Heroku = require('heroku-client');
-var lastUserID;
 const heroku = new Heroku({ token: "c0a7c816-7f14-470b-91c9-90857176ab61" });
 //process.env.HEROKU_API_TOKEN
 
@@ -27,15 +26,19 @@ bot.on('message',function(event){
 
   if (event.message.type = 'text') {
       var msg = event.message.text;
-    
-      nlp.NLP(msg, afterRequest);
+      var userID = event.source.userId;
+      nlp.NLP(msg, afterRequest, userID, event);
   
   }
   
-  function afterRequest(replymsg){
-      
+  function afterRequest(replymsg, e){
+      // if (replymsg[0] == "<") {
+      //   nlp.NLP(replymsg.substring(1), afterRequest, event.source.userId, event);
+      //   return;
+      // }
+
       //console.log("callbackQ!");
-      event.reply(replymsg).then(function(data) {
+      e.reply(replymsg).then(function(data) {
         // success 
         console.log("string reply success");
       }).catch(function(error) {
