@@ -11,7 +11,6 @@ var db = require('./DB_query.js');
 var nlp = require('./nlp.js');
 const Heroku = require('heroku-client');
 const heroku = new Heroku({ token: "c0a7c816-7f14-470b-91c9-90857176ab61" });
-//process.env.HEROKU_API_TOKEN
 
 //create bot
 var bot = linebot({
@@ -32,12 +31,7 @@ bot.on('message',function(event){
   }
   
   function afterRequest(replymsg, e){
-      // if (replymsg[0] == "<") {
-      //   nlp.NLP(replymsg.substring(1), afterRequest, event.source.userId, event);
-      //   return;
-      // }
 
-      //console.log("callbackQ!");
       e.reply(replymsg).then(function(data) {
         // success 
         console.log("string reply success");
