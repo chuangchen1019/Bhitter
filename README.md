@@ -1,8 +1,8 @@
 # Bhitter
 
 **Intro** <br/>
-<span style="color:grey">-Bhitter is a chatbot that can help you to get discount and infomation easily.</span>
+<p style="color:grey">-Bhitter is a chatbot that can help you to get discount and infomation easily.</p>
 
 **Support Language** <br/>
-<span style='color:grey'> - Chinese (繁體字) </span>
+<p style='color:grey'> - Chinese (繁體字) </p>
 
