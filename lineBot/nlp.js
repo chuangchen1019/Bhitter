@@ -74,7 +74,7 @@ function NLP(msg, callback, userID, event){
           
           if (map.get(userID) != undefined && map.get(userID) != "") {
               if (getNLI.result == "Read Time Out") {
-                    getNLI.result = "這個說法我聽不太懂耶～";
+                    getNLI.result = "Bhitter 剛剛不小心恍神了！";
               }
               let askArr = map.get(userID).split(" ");
               if (askArr.length > 0) {
@@ -116,9 +116,11 @@ function NLP(msg, callback, userID, event){
                 callback(finalCalInfo, event);
                 messageControlFlag = 0;
             }
-            else
+            else{
                 console.log("Finalmessage is null");
-
+                callback(finalCalInfo, event);
+                messageControlFlag = 0;
+            }
             map.set(userID,"");  
 
           }, 1000);
