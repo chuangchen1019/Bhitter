@@ -25,8 +25,8 @@ var card_name_list = ["","",""];
 
 function NLP(msg, callback, userID, event){
 
-  console.log("nlp connect seccess!");
-  console.log("userID in nlp:"+userID);
+  //console.log("nlp connect seccess!");
+  //console.log("userID in nlp:"+userID);
 
   if(msg == "回到原點" || msg == "不用了" || msg == "算了"){
     map.set(userID, "");
