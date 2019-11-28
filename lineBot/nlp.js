@@ -28,7 +28,7 @@ function NLP(msg, callback, userID, event){
   console.log("nlp connect seccess!");
   console.log("userID in nlp:"+userID);
 
-  if(msg == "回到原點"){
+  if(msg == "回到原點" || msg == "不用了" || msg == "算了"){
     map.set(userID, "");
     callback("謝謝您使用Bhitter💰", event);
     return;
@@ -69,6 +69,7 @@ function NLP(msg, callback, userID, event){
      
         var res = JSON.parse(b);
         var getNLI = res.data.nli[0].desc_obj;
+        var type = res.data.nli[0].type;
         console.log(getNLI.result);
         if (getNLI.result[0] != '{') {
           
@@ -84,7 +85,8 @@ function NLP(msg, callback, userID, event){
           else {
               if (getNLI.result == "Read Time Out") {
                   getNLI.result = "Bhitter 現在小忙碌，稍等一下再試～";
-              } else {
+              } 
+              else if(type != "chat"){
                 getNLI.result = `Bhitter是你最可靠的行動理財小助理！\n✦ 查詢利率\n✦ 算利息\n✦ 查詢優惠\n⚡️手刀輸入你想要知道的資訊吧⚡️`;
               }
           }
