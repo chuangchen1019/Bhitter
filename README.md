@@ -1,9 +1,8 @@
 # Bhitter
 
 **Intro** <br/>
-Bhitter is a chatbot that can help you to get discount and infomation easily.
+<span style="gray">Bhitter is a chatbot that can help you to get discount and infomation easily.</span>
 
 **Support Language** <br/>
-Chinese (繁體字)
-
+<span style="gray">Chinese (繁體字)</span>
 
