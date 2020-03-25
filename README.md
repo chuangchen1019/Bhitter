@@ -25,9 +25,9 @@ Server Environment :
 * Heroku
 
 ---
-<figure class="half">
-  ![](/image/pic1.png)
-  ![](/image/pic.png)
+
+  ![](/image/pic1.png){ width=50% }
+  ![](/image/pic2.png){ width=50% }
 
 
 
