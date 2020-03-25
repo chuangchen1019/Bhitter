@@ -26,10 +26,14 @@ Server Environment :
 ---
 
 <figure class="half">
-  <img src="/Users/chuangchen/Library/Application Support/typora-user-images/Screen Shot 2020-03-25 at 5.18.19 PM.png" alt="Screen Shot 2020-03-25 at 5.18.19 PM" style="zoom:50%;" vertical-align=top />
-  <img src="/Users/chuangchen/Library/Application Support/typora-user-images/Screen Shot 2020-03-25 at 5.26.44 PM.png" alt="Screen Shot 2020-03-25 at 5.26.44 PM" style="zoom:50%;"vertical-align=top />
+  <img src="/Users/chuangchen/Desktop/Project/Bhitter/image/pic1.png" alt="pic1" style="zoom:50%;" />
+  <img src="/Users/chuangchen/Desktop/Project/Bhitter/image/pic2.png" alt="pic2" style="zoom:50%;" />
+
+
 
  
+
+
 
 
 
