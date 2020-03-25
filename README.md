@@ -26,9 +26,7 @@ Server Environment :
 
 ---
 
-```
 ![](/image/pic1.png)
-```
 
 
 
