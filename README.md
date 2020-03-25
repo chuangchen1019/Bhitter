@@ -26,9 +26,9 @@ Server Environment :
 
 ---
 
-```
-![Image1](./image/pic1.png)
-```
+![](/image/pic1.png =50%x) 
+
+![](/image/pic2.png =50%x)
 
 
 
