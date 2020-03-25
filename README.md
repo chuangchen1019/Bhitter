@@ -6,7 +6,6 @@ Bhitter is a chatbot that can help you to get discount and infomation easily.<br
 
   🏅Award in 2019 Jih Sun Financial Holding Hackathon
 
-
 ---
 
 Dvelope Tools : 
@@ -25,10 +24,8 @@ Server Environment :
 * Heroku
 
 ---
-
 ![](/image/pic1.png =50%x) 
-
-![](/image/pic2.png =50%x)
+![](/image/pic2.png =50%x) 
 
 
 
