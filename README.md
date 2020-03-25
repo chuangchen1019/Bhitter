@@ -26,8 +26,8 @@ Server Environment :
 ---
 
 <figure class="half">
-  <img src="/Users/chuangchen/Desktop/Project/Bhitter/image/pic1.png" alt="pic1" style="zoom:50%;" />
-  <img src="/Users/chuangchen/Desktop/Project/Bhitter/image/pic2.png" alt="pic2" style="zoom:50%;" />
+  <img src="/image/pic1.png" alt="pic1" style="zoom:50%;" />
+  <img src="/image/pic2.png" alt="pic2" style="zoom:50%;" />
 
 
 
