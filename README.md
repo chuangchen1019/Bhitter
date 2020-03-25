@@ -4,7 +4,8 @@ Bhitter is a chatbot that can help you to get discount and infomation easily.<br
 
 - 🏅Award in 2019 International ICT Innovative Service Awards 
 
-- 🏅Award in 2019 Jih Sun Financial Holding Hackathon
+  🏅Award in 2019 Jih Sun Financial Holding Hackathon
+
 
 ---
 
@@ -25,13 +26,12 @@ Server Environment :
 
 ---
 
-<figure class="half">
-  <img src="/image/pic1.png" alt="pic1" style="zoom:50%;" />
-  <img src="/image/pic2.png" alt="pic2" style="zoom:50%;" />
+https://github.com/chuangchen1019/repositoryBhitter/raw/originmaster/image/pic1.png 
 
 
 
- 
+
+
 
 
 
