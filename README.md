@@ -27,7 +27,7 @@ Server Environment :
 ---
 
 ```
-![Image1] https://github.com/chuangchen1019/Bhitter/tree/master/image/pic1.png
+![Image1] (https://github.com/chuangchen1019/Bhitter/tree/master/image/pic1.png)
 ```
 
 
