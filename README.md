@@ -25,7 +25,8 @@ Server Environment :
 * Heroku
 
 ---
-![](/image/pic1.png =50%x) ![](/image/pic2.png =50%x)
+![](/image/pic1.png =50%x) 
+![](/image/pic2.png =50%x)
 
 
 
