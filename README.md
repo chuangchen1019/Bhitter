@@ -27,7 +27,7 @@ Server Environment :
   https://www.heroku.com/
 
 ---
-![](/image/pic1.png) 
+![](/image/pic.png) 
 
 
 
