@@ -13,11 +13,18 @@ Dvelope Tools :
 APIs : 
 
 * Olami API ( for NLP operation )
+
+   https://tw.olami.ai/open/website/home/home_show
+
 * Line API ( for data transfer & UI )
+
+   https://developers.line.biz/en/docs/messaging-api/overview/#how-it-works
 
 Server Environment :
 
 * Heroku
+
+  https://www.heroku.com/
 
 ---
 ![](/image/pic1.png) 
